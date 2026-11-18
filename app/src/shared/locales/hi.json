@@ -707,5 +707,10 @@
   "Yogurt couldn't reach that address. Check your connection and the address.": "Yogurt उस पते तक नहीं पहुंच सका। अपना कनेक्शन और पता जांचें।",
   "{name} is connected. You can change this any time in Settings.": "{name} कनेक्ट हो गया है। आप इसे कभी भी सेटिंग्स में बदल सकते हैं।",
   "Only see \"Public address in iCal format\"? Your organization turned off secret addresses, so this calendar can't be connected this way.": "सिर्फ \"Public address in iCal format\" दिख रहा है? आपके संगठन ने सीक्रेट पते बंद कर रखे हैं, इसलिए इस कैलेंडर को इस तरह कनेक्ट नहीं किया जा सकता।",
-  "That's the public address, which only works if your calendar is public. Copy \"Secret address in iCal format\" instead.": "यह पब्लिक पता है, जो सिर्फ तभी काम करता है जब आपका कैलेंडर पब्लिक हो। इसकी जगह \"Secret address in iCal format\" कॉपी करें।"
+  "That's the public address, which only works if your calendar is public. Copy \"Secret address in iCal format\" instead.": "यह पब्लिक पता है, जो सिर्फ तभी काम करता है जब आपका कैलेंडर पब्लिक हो। इसकी जगह \"Secret address in iCal format\" कॉपी करें।",
+  "Save transcripts to a folder": "ट्रांसक्रिप्ट एक फ़ोल्डर में सहेजें",
+  "After each meeting, its transcript is saved there as a Markdown file. A network share works too.": "हर मीटिंग के बाद, उसका ट्रांसक्रिप्ट वहाँ Markdown फ़ाइल के रूप में सहेजा जाता है। नेटवर्क शेयर भी काम करता है।",
+  "Can't reach this folder. Transcripts will be saved once it's back.": "इस फ़ोल्डर तक नहीं पहुँचा जा सका। इसके वापस आने पर ट्रांसक्रिप्ट सहेजे जाएँगे।",
+  "Change folder…": "फ़ोल्डर बदलें…",
+  "Choose folder…": "फ़ोल्डर चुनें…"
 }

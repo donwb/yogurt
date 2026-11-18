@@ -719,5 +719,10 @@
   "Yogurt couldn't reach that address. Check your connection and the address.": "Yogurt kon dat adres niet bereiken. Controleer je verbinding en het adres.",
   "{name} is connected. You can change this any time in Settings.": "{name} is gekoppeld. Je kunt dit altijd wijzigen in Instellingen.",
   "Only see \"Public address in iCal format\"? Your organization turned off secret addresses, so this calendar can't be connected this way.": "Zie je alleen \"Public address in iCal format\"? Je organisatie heeft geheime adressen uitgezet, dus deze agenda kan niet op deze manier worden gekoppeld.",
-  "That's the public address, which only works if your calendar is public. Copy \"Secret address in iCal format\" instead.": "Dat is het openbare adres, dat alleen werkt als je agenda openbaar is. Kopieer in plaats daarvan \"Secret address in iCal format\"."
+  "That's the public address, which only works if your calendar is public. Copy \"Secret address in iCal format\" instead.": "Dat is het openbare adres, dat alleen werkt als je agenda openbaar is. Kopieer in plaats daarvan \"Secret address in iCal format\".",
+  "Save transcripts to a folder": "Transcripties opslaan in een map",
+  "After each meeting, its transcript is saved there as a Markdown file. A network share works too.": "Na elke vergadering wordt het transcript daar opgeslagen als Markdown-bestand. Een netwerkshare werkt ook.",
+  "Can't reach this folder. Transcripts will be saved once it's back.": "Deze map is niet bereikbaar. Transcripties worden opgeslagen zodra hij terug is.",
+  "Change folder…": "Map wijzigen…",
+  "Choose folder…": "Map kiezen…"
 }

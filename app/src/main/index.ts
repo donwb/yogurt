@@ -73,6 +73,7 @@ import { createEmbedder } from './library/embedder'
 import { createIndexer } from './library/indexer'
 import { hookConversations } from './library/conversations'
 import { hookShare } from './share'
+import { hookTranscriptExport } from './transcriptExport'
 import { hookBackup } from './backupIpc'
 import { hookFolders } from './foldersIpc'
 import { hookMcp } from './mcp'
@@ -739,6 +740,9 @@ app.whenReady().then(() => {
   // the mic picker under the note's bar: the mics, the chosen one, and switching while recording
   hookMics({ helper: micListHelper(process.platform) === 'system' || isFake() ? runHelper : audioHelper.run, settingsFile, send: (channel, payload) => win?.webContents.send(channel, payload) })
   hookShare({ store, window: () => win })
+  // fork: each finished meeting's transcript to the folder picked in Settings (a network share is fine)
+  const transcriptExport = hookTranscriptExport({ store, settingsFile, stateFile: join(userDataDir(), 'transcript-exports.json'), window: () => win,
+    onStop: onMeetingStopSaved, transcribed: async (id) => { await recordingFinished(id); await transcriptFinished(id) }, named: (id) => callNames.finished(id) })
   hookFolders({ store, changed: () => { win?.webContents.send('folders:changed'); folderSuggestions.refresh() } })
   // every meeting to one file and back; what an import adds shows up on home
   hookBackup({ db: store.db, meetingsDir: join(userDataDir(), 'meetings'), window: () => win, recording: () => !!activeMeeting() || !!resumingId,
@@ -805,6 +809,7 @@ app.whenReady().then(() => {
         win?.webContents.send('meetings:changed'); win?.webContents.send('transcript:speakers', m.id)
         // notes that came out empty (no transcript then) are written now
         if (done && !store.notes(m.id).enhanced?.trim()) void notes.writeAgain(m.id)
+        if (done) void transcriptExport.queue(m.id)
       }
     } catch (e) { console.error('transcribing waiting meetings failed', e) } finally { backfilling = false }
   }

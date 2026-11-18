@@ -729,5 +729,10 @@
   "Yogurt couldn't reach that address. Check your connection and the address.": "Yogurt לא הצליח להגיע לכתובת הזו. בדקו את החיבור ואת הכתובת.",
   "{name} is connected. You can change this any time in Settings.": "{name} מחובר. אפשר לשנות זאת בכל עת בהגדרות.",
   "Only see \"Public address in iCal format\"? Your organization turned off secret addresses, so this calendar can't be connected this way.": "רואים רק את \"Public address in iCal format\"? הארגון שלכם כיבה כתובות סודיות, ולכן אי אפשר לחבר את היומן הזה כך.",
-  "That's the public address, which only works if your calendar is public. Copy \"Secret address in iCal format\" instead.": "זו הכתובת הציבורית, והיא עובדת רק אם היומן שלכם ציבורי. העתיקו במקומה את \"Secret address in iCal format\"."
+  "That's the public address, which only works if your calendar is public. Copy \"Secret address in iCal format\" instead.": "זו הכתובת הציבורית, והיא עובדת רק אם היומן שלכם ציבורי. העתיקו במקומה את \"Secret address in iCal format\".",
+  "Save transcripts to a folder": "שמירת תמלולים בתיקייה",
+  "After each meeting, its transcript is saved there as a Markdown file. A network share works too.": "אחרי כל פגישה, התמלול שלה נשמר שם כקובץ Markdown. גם תיקייה משותפת ברשת מתאימה.",
+  "Can't reach this folder. Transcripts will be saved once it's back.": "אין גישה לתיקייה הזו. התמלולים יישמרו כשהיא תחזור.",
+  "Change folder…": "שינוי תיקייה…",
+  "Choose folder…": "בחירת תיקייה…"
 }

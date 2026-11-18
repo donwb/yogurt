@@ -732,5 +732,10 @@
   "Yogurt couldn't reach that address. Check your connection and the address.": "Yogurt no pudo acceder a esa dirección. Revisa tu conexión y la dirección.",
   "{name} is connected. You can change this any time in Settings.": "{name} está conectado. Puedes cambiarlo cuando quieras en Ajustes.",
   "Only see \"Public address in iCal format\"? Your organization turned off secret addresses, so this calendar can't be connected this way.": "¿Solo ves \"Public address in iCal format\"? Tu organización desactivó las direcciones secretas, así que este calendario no se puede conectar así.",
-  "That's the public address, which only works if your calendar is public. Copy \"Secret address in iCal format\" instead.": "Esa es la dirección pública, que solo funciona si tu calendario es público. Copia \"Secret address in iCal format\" en su lugar."
+  "That's the public address, which only works if your calendar is public. Copy \"Secret address in iCal format\" instead.": "Esa es la dirección pública, que solo funciona si tu calendario es público. Copia \"Secret address in iCal format\" en su lugar.",
+  "Save transcripts to a folder": "Guardar transcripciones en una carpeta",
+  "After each meeting, its transcript is saved there as a Markdown file. A network share works too.": "Después de cada reunión, su transcripción se guarda allí como archivo Markdown. También sirve una carpeta de red.",
+  "Can't reach this folder. Transcripts will be saved once it's back.": "No se puede acceder a esta carpeta. Las transcripciones se guardarán cuando vuelva a estar disponible.",
+  "Change folder…": "Cambiar carpeta…",
+  "Choose folder…": "Elegir carpeta…"
 }

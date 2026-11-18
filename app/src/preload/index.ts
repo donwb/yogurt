@@ -243,6 +243,13 @@ const api: YogurtApi = {
     onLanguage: (cb) => { const f = (_e: unknown, locale: string) => cb(locale); ipcRenderer.on('settings:language', f); return () => { ipcRenderer.off('settings:language', f) } },
     setSpoken: (v) => ipcRenderer.invoke('settings:spoken', v),
   },
+  transcripts: {
+    status: () => ipcRenderer.invoke('transcripts:status'),
+    choose: () => ipcRenderer.invoke('transcripts:choose'),
+    clear: () => ipcRenderer.invoke('transcripts:clear'),
+    show: () => { ipcRenderer.send('transcripts:show') },
+    onStatus: (cb) => { const f = (_e: unknown, s: import('../shared/types').TranscriptFolderStatus) => cb(s); ipcRenderer.on('transcripts:status', f); return () => { ipcRenderer.off('transcripts:status', f) } },
+  },
   search: { query: (q, folder, people) => ipcRenderer.invoke('search:query', q, folder, people), people: () => ipcRenderer.invoke('search:people') },
   folders: {
     suggestion: (id) => ipcRenderer.invoke('folders:suggestion', id),

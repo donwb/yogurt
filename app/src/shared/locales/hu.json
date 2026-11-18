@@ -707,5 +707,10 @@
   "Yogurt couldn't reach that address. Check your connection and the address.": "A Yogurt nem érte el ezt a címet. Ellenőrizd a kapcsolatot és a címet.",
   "{name} is connected. You can change this any time in Settings.": "{name} csatlakoztatva. Bármikor módosíthatod a Beállításokban.",
   "Only see \"Public address in iCal format\"? Your organization turned off secret addresses, so this calendar can't be connected this way.": "Csak a „Public address in iCal format” látszik? A szervezeted kikapcsolta a titkos címeket, így ez a naptár így nem csatlakoztatható.",
-  "That's the public address, which only works if your calendar is public. Copy \"Secret address in iCal format\" instead.": "Ez a nyilvános cím, ami csak nyilvános naptárnál működik. Másold ki helyette a „Secret address in iCal format” címet."
+  "That's the public address, which only works if your calendar is public. Copy \"Secret address in iCal format\" instead.": "Ez a nyilvános cím, ami csak nyilvános naptárnál működik. Másold ki helyette a „Secret address in iCal format” címet.",
+  "Save transcripts to a folder": "Átiratok mentése mappába",
+  "After each meeting, its transcript is saved there as a Markdown file. A network share works too.": "Minden megbeszélés után az átirata Markdown-fájlként oda kerül. Hálózati megosztás is megfelel.",
+  "Can't reach this folder. Transcripts will be saved once it's back.": "Ez a mappa nem érhető el. Az átiratok mentésre kerülnek, amint újra elérhető.",
+  "Change folder…": "Mappa módosítása…",
+  "Choose folder…": "Mappa kiválasztása…"
 }

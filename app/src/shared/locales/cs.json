@@ -750,5 +750,10 @@
   "Yogurt couldn't reach that address. Check your connection and the address.": "Yogurt se k té adrese nedostal. Zkontrolujte připojení a adresu.",
   "{name} is connected. You can change this any time in Settings.": "{name} je připojený. Můžete to kdykoli změnit v Nastavení.",
   "Only see \"Public address in iCal format\"? Your organization turned off secret addresses, so this calendar can't be connected this way.": "Vidíte jen „Public address in iCal format“? Vaše organizace vypnula tajné adresy, takže tento kalendář takto připojit nejde.",
-  "That's the public address, which only works if your calendar is public. Copy \"Secret address in iCal format\" instead.": "To je veřejná adresa, která funguje jen u veřejného kalendáře. Zkopírujte místo ní „Secret address in iCal format“."
+  "That's the public address, which only works if your calendar is public. Copy \"Secret address in iCal format\" instead.": "To je veřejná adresa, která funguje jen u veřejného kalendáře. Zkopírujte místo ní „Secret address in iCal format“.",
+  "Save transcripts to a folder": "Ukládat přepisy do složky",
+  "After each meeting, its transcript is saved there as a Markdown file. A network share works too.": "Po každé schůzce se tam její přepis uloží jako soubor Markdown. Funguje i síťová složka.",
+  "Can't reach this folder. Transcripts will be saved once it's back.": "Tuto složku nelze zpřístupnit. Přepisy se uloží, jakmile bude znovu dostupná.",
+  "Change folder…": "Změnit složku…",
+  "Choose folder…": "Vybrat složku…"
 }

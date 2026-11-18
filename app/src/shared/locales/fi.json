@@ -725,5 +725,10 @@
   "Yogurt couldn't reach that address. Check your connection and the address.": "Yogurt ei saanut yhteyttä osoitteeseen. Tarkista yhteys ja osoite.",
   "{name} is connected. You can change this any time in Settings.": "{name} on yhdistetty. Voit muuttaa tätä milloin tahansa Asetuksissa.",
   "Only see \"Public address in iCal format\"? Your organization turned off secret addresses, so this calendar can't be connected this way.": "Näkyykö vain \"Public address in iCal format\"? Organisaatiosi on poistanut salaiset osoitteet käytöstä, joten tätä kalenteria ei voi yhdistää näin.",
-  "That's the public address, which only works if your calendar is public. Copy \"Secret address in iCal format\" instead.": "Tuo on julkinen osoite, joka toimii vain julkiselle kalenterille. Kopioi sen sijaan \"Secret address in iCal format\"."
+  "That's the public address, which only works if your calendar is public. Copy \"Secret address in iCal format\" instead.": "Tuo on julkinen osoite, joka toimii vain julkiselle kalenterille. Kopioi sen sijaan \"Secret address in iCal format\".",
+  "Save transcripts to a folder": "Tallenna litteroinnit kansioon",
+  "After each meeting, its transcript is saved there as a Markdown file. A network share works too.": "Jokaisen kokouksen jälkeen sen litterointi tallennetaan sinne Markdown-tiedostona. Myös verkkojako toimii.",
+  "Can't reach this folder. Transcripts will be saved once it's back.": "Tähän kansioon ei saada yhteyttä. Litteroinnit tallennetaan, kun se on taas käytettävissä.",
+  "Change folder…": "Vaihda kansio…",
+  "Choose folder…": "Valitse kansio…"
 }

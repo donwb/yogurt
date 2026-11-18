@@ -25,6 +25,9 @@ export type MeetingView = Meeting & { stopSavePending?: true; paused?: true }
 export type MeetingCard = StoredMeetingCard & { paused?: true }
 
 /** What the window sees of the app: window.yogurt (the preload bridge, contextIsolation on) */
+/** fork: where transcripts are saved, whether it answered last time (null: not tried yet), how many wait for it */
+export type TranscriptFolderStatus = { folder: string | null; reachable: boolean | null; waiting: number; last: { title: string; at: number } | null }
+
 export type YogurtApi = {
   reportRendererError(report: RendererError): void
   platform: NodeJS.Platform
@@ -175,6 +178,16 @@ export type YogurtApi = {
     import(): Promise<{ ok: true; added: number; skipped: number } | { ok: false; error: 'cancelled' | 'recording' | 'newer' | 'invalid' | 'failed' }>
     /** the file just exported, in Finder */
     show(): void
+  }
+  /** fork: each finished meeting's transcript saved to a folder (main/transcriptExport.ts) */
+  transcripts: {
+    status(): Promise<TranscriptFolderStatus>
+    /** asks for a folder; null when the person cancelled */
+    choose(): Promise<TranscriptFolderStatus | null>
+    /** stops saving transcripts (files already saved stay) */
+    clear(): Promise<TranscriptFolderStatus>
+    show(): void
+    onStatus(fn: (s: TranscriptFolderStatus) => void): () => void
   }
   /** a meeting's recording, played at yogurt-audio://<meetingId>/<track> */
   audio: {
